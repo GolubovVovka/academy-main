@@ -1,0 +1,28 @@
+*{margin:0;
+    padding:0;
+   }
+  body{
+        font-family:Verdana,georgia,palatino,serif;
+      }
+      
+  nav {
+      width:230px;
+      margin:25px auto;
+      border-left:20px solid #BDBDBD;
+      padding:0px;
+      text-align:center;
+      }
+  ul {list-style-type: none;}
+  li {padding:15px 0 15px 0;
+      text-transform: uppercase;
+      color:gray;
+     }
+  ul a {
+            color:black;
+            text-decoration:none;
+            font-weight:bold;
+            }   
+  li.red a {color:white;
+           background-color:red;
+           padding:3px;
+          }

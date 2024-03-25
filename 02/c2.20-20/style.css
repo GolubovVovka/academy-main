@@ -1,0 +1,36 @@
+.container {
+    width: 360px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #4DD0E2;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ .block {
+     background-color: white;
+     box-shadow: 0 1px 2px -1px gray;
+     height: 130px;
+   margin-right: 10px;
+ }
+ .block1 {
+   /*width: 15px;*/
+   flex-grow: 0.6;
+ }
+ .block2 {
+   /*width: 30px;*/
+   flex-grow: 1.2;
+ }
+ .block3 {
+  /* width: 45px;*/
+   flex-grow: 2;
+ }
+ .block4 {
+   /*width: 80px;*/
+   flex-grow: 4;
+ }
+ .block5 {
+   /*width: 165px;*/
+   flex-grow: 8;
+   margin-right: 0;
+ }
